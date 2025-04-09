@@ -1,21 +1,19 @@
-package first;
+package variable;
 
-public class addition {
-int number1;
-int number2;
-int number3;
-int number4;
-int sum;
-void summation() {
-	number1 = 5;
-	number2 = 10;
-	sum = number1+number2;
-	
-	System.out.println("Sum of two numbers is " + sum);
-}
-public static void main(String[] args) {
-	addition m = new addition();
-	m.summation();
-}
+public class addition // class definition
+{
+public  int a = 1;
+public  int b = 4;
+public  int addition;
+public void display()
+{
+addition  = a + b;
+System.out.println("Print the sum of a and b: "+ addition);
 }
 
+public static void main(String[] args)
+{
+addition a = new addition();
+a.display();
+}
+}
