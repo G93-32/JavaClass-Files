@@ -7,7 +7,7 @@ class Cocacola
 	}
 }
 class Pepsi extends Cocacola
-{
+{        @Override
 	void drink(String brand)
 	{
 		System.out.println("Pepsi:"+ brand);
